@@ -1,15 +1,18 @@
 {
-  "name": "expense-app",
+  "name": "expense-tracker-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/index.js",
+    "dev": "nodemon backend/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "@apollo/server": "^4.10.5",
     "@graphql-tools/merge": "^9.0.4",
     "bcryptjs": "^2.4.3",
@@ -20,6 +23,18 @@
     "graphql": "^16.9.0",
     "graphql-passport": "^0.6.8",
     "mongoose": "^8.5.1",
+=======
+    "@apollo/server": "^4.11.0",
+    "@graphql-tools/merge": "^9.0.7",
+    "bcryptjs": "^2.4.3",
+    "connect-mongodb-session": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-session": "^1.18.0",
+    "graphql": "^16.9.0",
+    "graphql-passport": "^0.6.8",
+    "mongoose": "^8.7.0",
+>>>>>>> 07c7f942000188221dd948bcb742410f39e2a63e
     "passport": "^0.7.0"
   }
 }
