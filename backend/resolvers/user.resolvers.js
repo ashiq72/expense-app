@@ -1,13 +1,12 @@
-import {users} from "../dummyData/data"
+import { users } from "../dummyData/data.js";
 
 const userResolver = {
-    Query: {
-        users: () => {
-            return users
-        }
+  Query: {
+    users: () => {
+      return users;
     },
-    Mutation: {}
-}
+  },
+  Mutation: {},
+};
 
-
-export default userResolver
+export default userResolver;
