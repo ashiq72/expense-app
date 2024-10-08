@@ -31,5 +31,5 @@ input LoginInput{
 type LogoutResponse{
     message: String!
 }
-`;
+`
 export default userTypeDef;
