@@ -1,5 +1,4 @@
 import mongoose from "mongoose";
-import { Passport } from "passport";
 
 const userSchema = new mongoose.Schema(
   {
